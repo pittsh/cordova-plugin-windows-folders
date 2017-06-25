@@ -1,5 +1,5 @@
 {
-  "name": "Windows Folders",
+  "name": "cordova-plugin-windows-folders",
   "version": "0.0.1",
   "description": "Cordova Windows Folders",
   "cordova": {

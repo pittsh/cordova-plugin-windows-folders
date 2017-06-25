@@ -15,5 +15,13 @@
     "cordova-windows"
   ],
   "author": "Hamish Murphy",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pittsh/cordova-plugin-windows-folders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pittsh/cordova-plugin-windows-folders/issues"
+  },
+  "homepage": "https://github.com/pittsh/cordova-plugin-windows-folders#readme"
 }

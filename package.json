@@ -1,0 +1,19 @@
+{
+  "name": "Windows Folders",
+  "version": "0.0.1",
+  "description": "Cordova Windows Folders",
+  "cordova": {
+    "id": "cordova-plugin-windows-folders",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-windows"
+  ],
+  "author": "Hamish Murphy",
+  "license": "Apache 2.0"
+}

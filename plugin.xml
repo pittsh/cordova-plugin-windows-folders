@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-capability-manager" version="0.0.1">
-    <name>Windows Folders</name>
-    <description>Cordova Windows Folders</description>
-    <license>Apache 2.0</license>
-    <keywords>cordova,device</keywords>
-    <platform name="windows">
-        <config-file target="package.appxmanifest" parent="/Package/Capabilities">
-            <uap:Capability Name="documentsLibrary" />
-        </config-file>
-        <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
-                <Extension Category="windows.fileTypeAssociation">
-                    <FileTypeAssociation Name="text">
-                        <SupportedFileTypes>
-                            <FileType>.db</FileType>
-                            <FileType>.jpg</FileType>
-                            <FileType>.png</FileType>
-                        </SupportedFileTypes>
-                    </FileTypeAssociation>
-                </Extension>
-        </config-file>
-    </platform>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-windows-folders" version="0.0.1">
+  <name>Windows Folders</name>
+  <description>Cordova Windows Folders</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,device</keywords>
+  <platform name="windows">
+    <config-file target="package.appxmanifest" parent="/Package/Capabilities">
+      <uap:Capability Name="documentsLibrary" />
+    </config-file>
+    <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
+      <Extension Category="windows.fileTypeAssociation">
+        <FileTypeAssociation Name="text">
+          <SupportedFileTypes>
+            <FileType>.db</FileType>
+            <FileType>.jpg</FileType>
+            <FileType>.png</FileType>
+          </SupportedFileTypes>
+        </FileTypeAssociation>
+      </Extension>
+    </config-file>
+  </platform>
 </plugin>

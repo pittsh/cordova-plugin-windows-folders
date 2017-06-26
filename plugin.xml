@@ -8,7 +8,7 @@
     <config-file target="package.appxmanifest" parent="/Package/Capabilities">
       <uap:Capability Name="documentsLibrary" />
     </config-file>
-    <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
+    <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions/Extension" >
       <Extension Category="windows.fileTypeAssociation">
         <FileTypeAssociation Name="text">
           <SupportedFileTypes>

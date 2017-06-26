@@ -13,8 +13,6 @@
         <uap:FileTypeAssociation Name="text">
           <uap:SupportedFileTypes>
             <uap:FileType>.db</FileType>
-            <uap:FileType>.jpg</FileType>
-            <uap:FileType>.png</FileType>
           </uap:SupportedFileTypes>
         </uap:FileTypeAssociation>
       </uap:Extension>

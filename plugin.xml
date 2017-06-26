@@ -12,7 +12,7 @@
       <uap:Extension Category="windows.fileTypeAssociation">
         <uap:FileTypeAssociation Name="text">
           <uap:SupportedFileTypes>
-            <uap:FileType>.db</FileType>
+            <uap:FileType>.db</uap:FileType>
           </uap:SupportedFileTypes>
         </uap:FileTypeAssociation>
       </uap:Extension>

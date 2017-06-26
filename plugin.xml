@@ -8,16 +8,16 @@
     <config-file target="package.appxmanifest" parent="/Package/Capabilities">
       <uap:Capability Name="documentsLibrary" />
     </config-file>
-    <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions/Extension" >
-      <Extension Category="windows.fileTypeAssociation">
-        <FileTypeAssociation Name="text">
-          <SupportedFileTypes>
-            <FileType>.db</FileType>
-            <FileType>.jpg</FileType>
-            <FileType>.png</FileType>
-          </SupportedFileTypes>
-        </FileTypeAssociation>
-      </Extension>
+    <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
+      <uap:Extension Category="windows.fileTypeAssociation">
+        <uap:FileTypeAssociation Name="text">
+          <uap:SupportedFileTypes>
+            <uap:FileType>.db</FileType>
+            <uap:FileType>.jpg</FileType>
+            <uap:FileType>.png</FileType>
+          </uap:SupportedFileTypes>
+        </uap:FileTypeAssociation>
+      </uap:Extension>
     </config-file>
   </platform>
 </plugin>

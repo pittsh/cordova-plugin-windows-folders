@@ -10,9 +10,10 @@
     </config-file>
     <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions" >
       <uap:Extension Category="windows.fileTypeAssociation">
-        <uap:FileTypeAssociation Name="text">
+        <uap:FileTypeAssociation Name="inspectorapp">
           <uap:SupportedFileTypes>
             <uap:FileType>.db</uap:FileType>
+            <uap:FileType>.json</uap:FileType>
           </uap:SupportedFileTypes>
         </uap:FileTypeAssociation>
       </uap:Extension>

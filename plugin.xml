@@ -14,6 +14,10 @@
           <uap:SupportedFileTypes>
             <uap:FileType>.db</uap:FileType>
             <uap:FileType>.json</uap:FileType>
+            <uap:FileType>.png</uap:FileType>
+            <uap:FileType>.jpg</uap:FileType>
+            <uap:FileType>.jpeg</uap:FileType>
+            <uap:FileType>.gif</uap:FileType>
           </uap:SupportedFileTypes>
         </uap:FileTypeAssociation>
       </uap:Extension>
